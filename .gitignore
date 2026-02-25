@@ -1,0 +1,16 @@
+.terrafom
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate
+.terraform.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Ignore override files as they are usually used to override resources locally and should not be shared.
+override.tf
+override.tf.json
+
+# Include override files in the ignore list if they are not already included.
